@@ -1,9 +1,13 @@
-import React from "react";
+import Home from "./pages/home";
+import { Card } from "@material-ui/core";
 
 function App() {
   return (
-    <div>
-      <h1>This is my bank homepage</h1>
+    <div className="App">
+      <Card>
+        {""}
+        <Home />
+      </Card>
     </div>
   );
 }
