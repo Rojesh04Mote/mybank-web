@@ -1,9 +1,9 @@
-import Home from "./pages/home";
+import Home from "./pages/Home";
 import { Card } from "@material-ui/core";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Card>
         {""}
         <Home />
