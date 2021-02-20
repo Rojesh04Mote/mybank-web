@@ -1,0 +1,33 @@
+.view-point {
+  display: flex;
+  justify-content: space-around;
+}
+.card-items {
+  background-color: rgba(255, 0, 0, 0.3);
+  width: 400px;
+  border: 3 px solid red;
+  padding: 50px;
+  margin: 90px;
+  text-align: center;
+}
+
+.card-data {
+  background-color: rgba(255, 0, 0, 0.3);
+  width: 400px;
+  border: 3px solid red;
+  padding: 50px;
+  margin: 90px;
+  text-align: center;
+}
+
+.watch-point {
+  align-items: center;
+  justify-content: center;
+}
+
+.card-core {
+  background-color: rgba(255, 0, 0, 0.3);
+
+  text-align: center;
+  border: 4px solid green;
+}
