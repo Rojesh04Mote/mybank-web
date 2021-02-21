@@ -1,0 +1,30 @@
+.view-point {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-items {
+  height: 150px;
+  width: 500px;
+  padding: 10px;
+  margin: 100px;
+  text-align: center;
+  color: red;
+}
+
+.watch-point {
+  padding: 50px;
+  margin: 10px;
+  width: auto;
+}
+
+.card-core {
+  align-items: left;
+  justify-content: center;
+}
+
+.card-div {
+  display: flex;
+  justify-content: space-around;
+  color: lightseagreen;
+}
