@@ -9,28 +9,50 @@ export default function Home() {
         My Bank
       </Typography>
       <div className="view-point">
-        <div className="card-items">
-          <Card>
-            <Typography color="secondary">Aakash MiniBank Info:-</Typography>
-            <Typography color="primary">Total : {"100"}</Typography>
-            <Typography color="secondary">Due : {"20"}</Typography>
-          </Card>
-        </div>
-        <div className="card-data">
-          <Card>
-            <Typography color="secondary">Rojesh MiniBank Info:-</Typography>
-            <Typography color="primary">Total:{"200"}</Typography>
-            <Typography color="secondary">Due:{"30"}</Typography>
-          </Card>
-        </div>
-      </div>
-      <br />
-      <div className="card-core">
-        <Card className="watch-point">
-          <Typography color="secondary">Total:{500}</Typography>
-          <Typography color="primary ">Left:{"200"}</Typography>
+        <Card className="card-items">
+          <Typography variant="h5" style={{ fontWeight: "bold" }}>
+            Aakash MiniBank Info:-
+          </Typography>
+          <div className="card-div">
+            <p>
+              <span style={{ color: "black" }}>Total</span>
+              <span style={{ color: "green" }}>:{100}</span>
+            </p>
+            <p>
+              <span style={{ color: "black" }}>Due</span>
+              <span style={{ color: "red" }}>:{30}</span>
+            </p>
+          </div>
+        </Card>
+        <Card className="card-items">
+          <Typography variant="h5" style={{ fontWeight: "bold" }}>
+            RojeshMiniBank Info:-
+          </Typography>
+          <div className="card-div">
+            <p>
+              <span style={{ color: "black" }}>Total</span>
+              <span style={{ color: "green" }}>:{100}</span>
+            </p>
+            <p>
+              <span style={{ color: "black" }}>Due</span>
+              <span style={{ color: "red" }}>:{20}</span>
+            </p>
+          </div>
         </Card>
       </div>
+      <br />
+      <Card className="watch-point">
+        <div className="card-div">
+          <p>
+            <span style={{ color: "black" }}>Total</span>
+            <span style={{ color: "green" }}>:{200}</span>
+          </p>
+          <p>
+            <span style={{ color: "black" }}>Left</span>
+            <span style={{ color: "red" }}>:{50}</span>
+          </p>
+        </div>
+      </Card>
     </div>
   );
 }
